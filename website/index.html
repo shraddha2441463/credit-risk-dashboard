@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Corporate Credit Risk Scoring Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header Section / Module 1 -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Corporate Credit Risk Scoring Dashboard</h1>
+            <p>A web-based system to evaluate corporate financial health using Altman Z-Score, liquidity ratios, solvency ratios, and probability of default analytics.</p>
+            <a href="#upload" class="btn">Get Started</a>
+        </div>
+    </header>
+
+
+    <!-- Module 2: CSV Upload -->
+    <section id="upload" class="section">
+        <h2>Upload Financial Statement CSV</h2>
+        <p>Upload a standardized CSV file containing the company’s financial statement values.</p>
+
+        <div class="upload-box">
+            <input type="file" id="fileInput" accept=".csv">
+            <button class="btn">Upload</button>
+        </div>
+
+        <h3>Required CSV Fields</h3>
+        <ul class="fields">
+            <li>Total_Assets</li>
+            <li>Current_Assets</li>
+            <li>Total_Liabilities</li>
+            <li>Current_Liabilities</li>
+            <li>Total_E
+            <li>Total_Sales</li>
+            <li>Working_Capital</li>
+            <li>Retained_Earnings</li>
+            <li>Market_Value_Equity</li>
+            <li>Total_Debt</li>
+            <li>Interest_Expense</li>
+        </ul>
+    </section>
+
+
+    <!-- Module 3: Dashboard Overview -->
+    <section class="section" id="dashboard">
+        <h2>Risk Score Dashboard Overview</h2>
+        <p>This module will generate:</p>
+
+        <ul class="features">
+            <li>Altman Z-Score</li>
+            <li>Liquidity Ratios (Current Ratio, Quick Ratio)</li>
+            <li>Solvency Ratios (Debt-to-Equity, Interest Coverage)</li>
+            <li>Probability of Default (Low / Medium / High)</li>
+            <li>Graphs – Financial Trends & Ratio Comparisons</li>
+        </ul>
+    </section>
+
+
+    <!-- Module 4: PDF Report -->
+    <section class="section" id="report">
+        <h2>PDF Report Generation</h2>
+        <p>The system will generate a downloadable PDF containing:</p>
+
+        <ul class="features">
+            <li>Company Name</li>
+            <li>All financial ratios</li>
+            <li>Z-score interpretation</li>
+            <li>Risk zone classification</li>
+            <li>Graphs (trend + comparison)</li>
+        </ul>
+
+        <button class="btn">Download Sample Report</button>
+    </section>
+
+
+    <!-- Module 5: About the Project -->
+    <section class="section" id="about">
+        <h2>About This Project</h2>
+        <p>This project demonstrates how financial statements can be used to assess the probability of corporate default. It integrates financial modeling with technical implementation using HTML, CSS, and Python.</p>
+
+        <ul class="features">
+            <li>Credit Risk Analytics</li>
+            <li>Financial Ratio Interpretation</li>
+            <li>Automated Scoring Models</li>
+            <li>Real-World Banking Applications</li>
+        </ul>
+    </section>
+
+
+    <!-- Footer / Module 6 -->
+    <footer>
+        <p><b>Created by:</b> Shraddha Mukhopadhyay · Reg No. 2441463-4DS</p>
+        <p><b>Project:</b> Corporate Credit Risk Scoring Dashboard (2026)</p>
+    </footer>
+
+</body>
+</html>
